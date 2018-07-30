@@ -1,0 +1,16 @@
+PODS:
+  - SpinnerGIF (0.1.0)
+
+DEPENDENCIES:
+  - SpinnerGIF (from `../`)
+
+EXTERNAL SOURCES:
+  SpinnerGIF:
+    :path: ../
+
+SPEC CHECKSUMS:
+  SpinnerGIF: 074d054f5f8be70f1f8258daeaf0739de753c444
+
+PODFILE CHECKSUM: f50f5925be9ac8c84b4155dc11d66f398e45cedb
+
+COCOAPODS: 1.4.0

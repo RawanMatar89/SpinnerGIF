@@ -1,0 +1,6 @@
+framework module SpinnerGIF {
+  umbrella header "SpinnerGIF-umbrella.h"
+
+  export *
+  module * { export * }
+}

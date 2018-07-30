@@ -1,0 +1,22 @@
+{
+  "name": "SpinnerGIF",
+  "version": "0.1.0",
+  "summary": "A short description of SpinnerGIF.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/rawanmatar89/SpinnerGIF",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "rawanmatar89": "rawan.marzouq@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/rawanmatar89/SpinnerGIF.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SpinnerGIF/Classes/**/*"
+}
