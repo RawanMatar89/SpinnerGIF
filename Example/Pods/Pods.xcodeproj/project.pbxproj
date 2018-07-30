@@ -13,6 +13,7 @@
 		42013890B1C251E5ADDA3A70C49B8817 /* Pods-SpinnerGIF_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 750896E4675417D8A89EE051252C8F33 /* Pods-SpinnerGIF_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		61CB8E15F4561D38CED898E71639B7E1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		71FAE2E95C8202DDE7CBACB5599D4663 /* Pods-SpinnerGIF_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 134BA8EA359114A4BADE96BA64BE7281 /* Pods-SpinnerGIF_Example-dummy.m */; };
+		8C574CE2210EF1F100A845D1 /* SpinnerGIF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C574CE1210EF1F100A845D1 /* SpinnerGIF.swift */; };
 		8D8EA709F9B656EB019220D5BEC488EA /* SpinnerGIF-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B4F6BAA85C4CF5F9F51C6F32CA15597A /* SpinnerGIF-dummy.m */; };
 		8F9FDEDD6A87B9833DE1A7089E512260 /* Pods-SpinnerGIF_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 258F664AAA4916023404170ABE3BED10 /* Pods-SpinnerGIF_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		94AA0622BD8C6709BB5A9816096D60D9 /* SpinnerGIF-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F0755AB25838EF4F2F88132CD843C9F /* SpinnerGIF-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -40,18 +41,19 @@
 		258F664AAA4916023404170ABE3BED10 /* Pods-SpinnerGIF_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SpinnerGIF_Example-umbrella.h"; sourceTree = "<group>"; };
 		25E3DDD9CE035FB3D17E53D0D1D29147 /* Pods-SpinnerGIF_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SpinnerGIF_Tests-resources.sh"; sourceTree = "<group>"; };
 		335774BC3A72595F1C2E0DC5E38A026B /* Pods-SpinnerGIF_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SpinnerGIF_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		361FAABB46843BEC9926CBCE24B51E91 /* SpinnerGIF.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = SpinnerGIF.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		42E97CFC3407A9FFEA9B5A77B02A4AC1 /* Pods_SpinnerGIF_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SpinnerGIF_Example.framework; path = "Pods-SpinnerGIF_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		594A305454A4543307A305867B2A2721 /* Pods_SpinnerGIF_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SpinnerGIF_Tests.framework; path = "Pods-SpinnerGIF_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		361FAABB46843BEC9926CBCE24B51E91 /* SpinnerGIF.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = SpinnerGIF.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		42E97CFC3407A9FFEA9B5A77B02A4AC1 /* Pods_SpinnerGIF_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpinnerGIF_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		594A305454A4543307A305867B2A2721 /* Pods_SpinnerGIF_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpinnerGIF_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CA9B093804C6CA8DD8C44C3845009C7 /* Pods-SpinnerGIF_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SpinnerGIF_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		6E10C3A5D45657098B85E9ECCE27ED4F /* Pods-SpinnerGIF_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SpinnerGIF_Tests-dummy.m"; sourceTree = "<group>"; };
-		70F14C25A10985CA7BD0F5D531EAC5B9 /* SpinnerGIF.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SpinnerGIF.framework; path = SpinnerGIF.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		70F14C25A10985CA7BD0F5D531EAC5B9 /* SpinnerGIF.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SpinnerGIF.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		750896E4675417D8A89EE051252C8F33 /* Pods-SpinnerGIF_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SpinnerGIF_Tests-umbrella.h"; sourceTree = "<group>"; };
-		7EB1BBDD1F575307E103200E42D20EBD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		7EB1BBDD1F575307E103200E42D20EBD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		7F0755AB25838EF4F2F88132CD843C9F /* SpinnerGIF-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SpinnerGIF-umbrella.h"; sourceTree = "<group>"; };
 		8A080F32309C0011661715FA5D16A128 /* SpinnerGIF.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SpinnerGIF.modulemap; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8C574CE1210EF1F100A845D1 /* SpinnerGIF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SpinnerGIF.swift; path = SpinnerGIF/Classes/SpinnerGIF.swift; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		98CBA1460ADCF6472B59B77B8CB114E9 /* Pods-SpinnerGIF_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SpinnerGIF_Tests.modulemap"; sourceTree = "<group>"; };
 		9D2CD8A8DEA08E07325EBE00BB88D3D5 /* SpinnerGIF-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SpinnerGIF-prefix.pch"; sourceTree = "<group>"; };
 		A5291CC837CAB767A57118E2DD718B52 /* Pods-SpinnerGIF_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SpinnerGIF_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -59,7 +61,7 @@
 		B4F6BAA85C4CF5F9F51C6F32CA15597A /* SpinnerGIF-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SpinnerGIF-dummy.m"; sourceTree = "<group>"; };
 		B5A21A946E7DC07DA359622CF7E30D7A /* Pods-SpinnerGIF_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SpinnerGIF_Example-frameworks.sh"; sourceTree = "<group>"; };
 		B74E0A224AD1B38C0F95BBD797F814F3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C5E1C457F91AFD6358C17D5F9E8CAB2D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		C5E1C457F91AFD6358C17D5F9E8CAB2D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		C904F09BAA6E871CC84765141AC30166 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D0825F6809D5C272AFEAB22D0AB3A67E /* Pods-SpinnerGIF_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SpinnerGIF_Example.modulemap"; sourceTree = "<group>"; };
 		D164595792BB4669B4511A10B9F46E8A /* Pods-SpinnerGIF_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SpinnerGIF_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -213,6 +215,7 @@
 			isa = PBXGroup;
 			children = (
 				D7B6E01982DC1156CB2009FBB42F4723 /* ReplaceMe.swift */,
+				8C574CE1210EF1F100A845D1 /* SpinnerGIF.swift */,
 				A11F084272D322E6B7938D8472F42251 /* Pod */,
 				69749884A0BC407D43FB8FCC4C22F816 /* Support Files */,
 			);
@@ -351,6 +354,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C574CE2210EF1F100A845D1 /* SpinnerGIF.swift in Sources */,
 				238260F1C68A5273A56823DE472A57E9 /* ReplaceMe.swift in Sources */,
 				8D8EA709F9B656EB019220D5BEC488EA /* SpinnerGIF-dummy.m in Sources */,
 			);
