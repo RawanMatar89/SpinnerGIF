@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SpinnerGIF'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'A Swift 4.1 custom UIImage spinner Control.'
 
 # This description is used to generate tags and improve search results.
